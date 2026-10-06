@@ -1,0 +1,16 @@
+.cacau {
+    background: url("chocolate.jpg") no-repeat;
+    width: 500px;
+    height: 500px;
+    display: block;
+    background-size: contain;
+    
+}
+
+.cacau:hover {
+    background-position: 0px 50px;
+}
+
+.cacau:active {
+    background-color: aqua;
+}

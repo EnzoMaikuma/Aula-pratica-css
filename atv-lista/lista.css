@@ -1,0 +1,17 @@
+.alt {
+    list-style: circle;
+    font-size: 50px;
+    color: blueviolet;
+    width: fit-content;
+}
+/* odd-impar -  even */
+.alt li:nth-child(odd) {
+    background-color: red ;
+}
+.alt li:nth-child(even) {
+    background-color: aquamarine;
+}
+
+.alt li:hover{
+    font-weight: bolder;
+}
